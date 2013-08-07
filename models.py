@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Board(models.Model):
-	name = models.CharField(max_lenth=200)
+	name = models.CharField(max_length=200)
 	restricted = models.BooleanField(default=false)
 	allowed_groups = models.ManyToManyField(models.Group)
 
