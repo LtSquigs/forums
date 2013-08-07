@@ -8,7 +8,7 @@ class Board(models.Model):
 
 class Topic(models.Model):
 	board = models.ForeignKey(Board)
-	title = models.CharField(max_lenth=200, default='')
+	title = models.CharField(max_length=200, default='')
 	deleted = models.BooleanField(default=false)
 
 
