@@ -1,0 +1,51 @@
+[
+  {
+    "model": "forums.Board",
+    "pk": 1,
+    "fields": {
+        "name": "General Discussion",
+        "restricted": false
+    }
+
+  },
+  {
+    "model": "forums.Board",
+    "pk": 2,
+    "fields": {
+        "name": "Off-Topic",
+        "restricted": false
+    }
+  },
+  {
+    "model": "forums.Board",
+    "pk": 3,
+    "fields": {
+        "name": "Bombcast",
+        "restricted": false
+    }
+  },
+  {
+    "model": "forums.Board",
+    "pk": 4,
+    "fields": {
+        "name": "Bug Reporting",
+        "restricted": false
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 1,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": true, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  }
+]
