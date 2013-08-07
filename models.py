@@ -12,6 +12,7 @@ class Board(models.Model):
 
 class Topic(models.Model):
     board = models.ForeignKey(Board)
+    author =  models.ForeignKey(User)
     title = models.CharField(max_length=200, default='')
     deleted = models.BooleanField(default=False)
     anchored = models.BooleanField(default=False)
