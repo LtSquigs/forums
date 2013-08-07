@@ -18,6 +18,9 @@ class Topic(models.Model):
     anchoredToFeed = models.BooleanField(default=False)
     locked = models.BooleanField(default=False)
 
+    date_created = models.DateTimeField()
+    date_updated = models.DateTimeField()
+
     # views ?
     posts = models.IntegerField(default=0)
 
@@ -28,3 +31,6 @@ class Message(models.Model):
     author = models.ForeignKey(User)
     content = models.TextField(default='')
     deleted = models.BooleanField(default=False)
+    
+    date_created = models.DateTimeField()
+    date_updated = models.DateTimeField()
