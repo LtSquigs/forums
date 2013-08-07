@@ -4,7 +4,7 @@ from django.db import models
 class Board(models.Model):
 	name = models.CharField(max_length=200)
 	restricted = models.BooleanField(default=False)
-	allowed_groups = models.ManyToManyField(models.Group)
+	allowed_groups = models.ManyToManyField(Group)
 
 class Topic(models.Model):
 	board = models.ForeignKey(Board)
@@ -14,6 +14,6 @@ class Topic(models.Model):
 
 class Message(models.Model):
 	topic = models.ForeignKey(Topic)
-	author = models.ForeignKey(models.User)
+	author = models.ForeignKey(User)
 	content = models.TextField(default='')
 	deleted = models.BooleanField(default=False)
