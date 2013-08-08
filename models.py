@@ -12,8 +12,8 @@ class Board(models.Model):
 
 class Topic(models.Model):
     board = models.ForeignKey(Board)
-    author =  models.ForeignKey(User)
-    lastPoster =  models.ForeignKey(User)
+    author =  models.ForeignKey(User, related_name='a+')
+    lastPoster =  models.ForeignKey(User, related_name='lp+')
     title = models.CharField(max_length=200, default='')
     deleted = models.BooleanField(default=False)
     anchored = models.BooleanField(default=False)
@@ -30,7 +30,7 @@ class Topic(models.Model):
 
 class Message(models.Model):
     topic = models.ForeignKey(Topic)
-    author = models.ForeignKey(User)
+    author = models.ForeignKey(User, related_name='a+')
     content = models.TextField(default='')
     deleted = models.BooleanField(default=False)
     
