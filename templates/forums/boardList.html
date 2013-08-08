@@ -1,69 +1,24 @@
 <div class="forum-aside board-list">
   <h3 class="header-border">Forums</h3>
 
-  <h4 class="header-border">Main boards</h4>
-
   <ul>
+    {% for board in board_list %}
     <li class="">
-      <a href="/forums/favorites/boards/">Favorite Boards</a>
+        <a href="/forums/{{ board|slugify }}">{{ board.name }}</a>
     </li>
-
-    <li class="">
-      <a href="/forums/favorites/topics/">Watched Topics</a>
-    </li>
+    {% endfor %}
 
     <li class="">
       <a href="/forums/deleted-topics/">Deleted Topics</a>
     </li>
 
-    <li class="">
-      <a href="/forums/general-discussion-30/">General
-      Discussion</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/off-topic-31/">Off-Topic</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/bombcast-32/">Bombcast</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/bug-reporting-33/">Bug Reporting</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/delete-combine-requests-34/">Delete &amp;
-      Combine Requests</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/editing-tools-820/">Editing &amp; Tools</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/moderator-hangout-826/">Moderator
-      Hangout</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/api-developers-3017/">API Developers</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/quests-5331/">Quests</a>
-    </li>
-
-    <li class="">
-      <a href="/forums/bomb-squad-6871/">Bomb Squad</a>
-    </li>
   </ul>
 
-{#
+{% comment %}
   <h4 class="header-border">Contact the moderators</h4>
 
   <p>The Giant Bomb moderators are here to help. <a href=
   "/pm/compose-mods/">Click here</a> to send a private message to
-  our entire mod crew.</p>#}
+  our entire mod crew.</p>
+{% endcomment %}
 </div>

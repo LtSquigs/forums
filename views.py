@@ -7,12 +7,12 @@ from forums.models import Board
 def index(request):
 
     latest_topics_list = Topic.objects.order_by('-date_updated')[:20]
-    board_list = Board.objects.order_by('id')
+    board_list = Board.objects.all()
 
     template = loader.get_template('forums/index.html')
 
     context = RequestContext(request, {
-        'latest_topics_list' : latest_topics_list
+        'latest_topics_list' : latest_topics_list,
         'board_list' : board_list
     })
     
