@@ -35,3 +35,7 @@ class Message(models.Model):
     
     date_created = models.DateTimeField()
     date_updated = models.DateTimeField()
+
+class ForumStats(models.Model):
+    user = models.ForeignKey(User)
+    posts = models.IntegerField(defualt=0)
