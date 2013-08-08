@@ -38,13 +38,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": true, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -54,13 +55,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": true,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -70,13 +72,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -86,13 +89,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -102,13 +106,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -118,13 +123,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -134,13 +140,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -150,13 +157,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -166,13 +174,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   },
@@ -182,13 +191,14 @@
     "fields": {
         "board": 1,
         "author": 1,
+        "lastPoster": 1,
         "title": "The Community Spotlight",
         "deleted": false,
         "anchored": false,
         "anchoredToFeed": false, 
         "locked": false,
-        "date_created": "2013-08-02 00:00:00",
-        "date_updated": "2013-08-07 00:00:00",
+        "dateCreated": "2013-08-02 00:00:00",
+        "dateUpdated": "2013-08-07 00:00:00",
         "posts": 14
     }
   }

@@ -13,14 +13,15 @@ class Board(models.Model):
 class Topic(models.Model):
     board = models.ForeignKey(Board)
     author =  models.ForeignKey(User)
+    lastPoster =  models.ForeignKey(User)
     title = models.CharField(max_length=200, default='')
     deleted = models.BooleanField(default=False)
     anchored = models.BooleanField(default=False)
     anchoredToFeed = models.BooleanField(default=False)
     locked = models.BooleanField(default=False)
 
-    date_created = models.DateTimeField()
-    date_updated = models.DateTimeField()
+    dateCreated = models.DateTimeField()
+    dateUpdated = models.DateTimeField()
 
     # views ?
     posts = models.IntegerField(default=0)
@@ -33,8 +34,8 @@ class Message(models.Model):
     content = models.TextField(default='')
     deleted = models.BooleanField(default=False)
     
-    date_created = models.DateTimeField()
-    date_updated = models.DateTimeField()
+    dateCreated = models.DateTimeField()
+    dateUpdated = models.DateTimeField()
 
 class ForumStats(models.Model):
     user = models.ForeignKey(User)

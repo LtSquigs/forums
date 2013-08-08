@@ -68,6 +68,48 @@
           <th class="views">Posts</th>
         </tr>
 
+        {% for topic in topic_list %}
+        <tr>
+          <td class="hide-mobile cell-min">
+            {% comment %} TODO, REPLACE WITH AVATAR? GRAVATAR?{% endcomment %}
+            <a class="avatar img" href="/profile/zombiepie/"><img src=
+            "http://static.giantbomb.com/uploads/square_mini/0/8273/2515185-cut+avatar.jpg"></a>
+          </td>
+
+          <td>
+            <div>
+              {% if topic.anchoredToFeed %}
+              <img src=
+              "http://static.giantbomb.com/bundles/phoenixsite/images/core/sprites/icons/icn-pin-16x16.png">
+              {% endif %}
+              <a class="topic-name" data-original-title="" href="">{{ topic.name }}</a> <a class="last" href="">
+              »</a>
+            </div>
+            <a class="board" href="">{{ topic.board.name }}</a>
+          </td>
+
+          <td class="author hide-mobile">
+            <div>
+              <a href="">{{ topic.author.username }}</a>
+            </div>
+            <span class="info">{{ topic.dateCreated|timesince }}</span>
+          </td>
+
+          <td class="last-post hide-mobile">
+            <div>
+              {% comment %}TODO REPLCAE WITH LAST POST AUTHOR{% endcomment %}
+              <a class=" nintendo" href="">GERALTITUDE</a>
+            </div>
+            <span class="info">{{ topic.dateUpdated|timesince }} 
+              <a class="last" href="#">»</a></span>
+          </td>
+
+          <td class="views hide-mobile">VIEWS</td>
+
+          <td class="views">{{ topic.posts }}</td>
+        </tr>
+        {% endfor %}
+        {#
         <tr>
           <td class="hide-mobile cell-min">
             <a class="avatar img" href="/profile/zombiepie/"><img src=
@@ -2025,6 +2067,7 @@
 
           <td class="views">0</td>
         </tr>
+        #}
       </tbody>
     </table>
 
