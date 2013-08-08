@@ -6,7 +6,7 @@ from forums.models import Board
 
 def index(request):
 
-    latest_topics_list = Topic.objects.order_by('-date_updated')[:20]
+    latest_topics_list = Topic.objects.order_by('-dateUpdated')[:20]
     board_list = Board.objects.all()
 
     template = loader.get_template('forums/index.html')
