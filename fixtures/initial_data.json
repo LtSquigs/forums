@@ -47,5 +47,149 @@
         "date_updated": "2013-08-07 00:00:00",
         "posts": 14
     }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 2,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": true,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 3,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 4,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 5,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 6,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 7,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 8,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 9,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
+  },
+  {
+    "model": "forums.Topic",
+    "pk": 10,
+    "fields": {
+        "board": 1,
+        "author": 1,
+        "title": "The Community Spotlight",
+        "deleted": false,
+        "anchored": false,
+        "anchoredToFeed": false, 
+        "locked": false,
+        "date_created": "2013-08-02 00:00:00",
+        "date_updated": "2013-08-07 00:00:00",
+        "posts": 14
+    }
   }
 ]
