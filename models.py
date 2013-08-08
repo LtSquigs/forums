@@ -38,4 +38,4 @@ class Message(models.Model):
 
 class ForumStats(models.Model):
     user = models.ForeignKey(User)
-    posts = models.IntegerField(defualt=0)
+    posts = models.IntegerField(default=0)
